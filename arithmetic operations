@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int a,b,add,sub,mult,div;
+printf("enter two numbers:");
+scanf("%d%d",&a,&b);
+add=a+b;
+sub=a-b;
+mult=a*b;
+div=a/b;
+printf("addition is:%d\n",add);
+printf("substraction is:%d\n",sub);
+printf("multiplication is:%d\n",mult);
+printf("division is:%d\n",div);
+return 0;
+}
