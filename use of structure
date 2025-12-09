@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct stud{
+int roll;
+float marks;
+};
+int main(){
+struct stud s1;
+s1={35,94.83};
+print("Roll=%d",s1.roll);
+print("Marks=%d",s1.marks);
+return 0;
+}
