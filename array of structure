@@ -1,0 +1,18 @@
+#include<stdio.h>
+struct stud{
+int roll;
+float marks;
+};
+int main(){
+struct stud s[3];
+int i;
+for(i=0;i<3;i++){
+printf("enter the roll and marks of student%d:",i+1);
+scanf("%d %f",&s[i].roll, &s[i].marks);
+}
+for(i=0;i<3;i++){
+printf(" the roll=%d marks=%f\n",s[i].roll,s[i].marks);
+}
+
+return 0;
+}
