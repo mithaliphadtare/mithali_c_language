@@ -1,0 +1,17 @@
+#include<stdio.h>
+struct stud{
+char name[30];
+float salary;
+};
+int main(){
+struct stud s[3];
+int i;
+for(i=0;i<3;i++){
+printf("enter the name and salary of employee: %d",i+1);
+scanf("%s %f",&s[i].name,&s[i].salary);
+}
+for(i=0;i<3;i++){
+printf(" the name = %s and salary=%f\n",s[i].name, s[i].salary);
+}
+return 0;
+}
