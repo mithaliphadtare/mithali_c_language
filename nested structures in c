@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct nested{
+int date;
+int month;
+int year;
+};
+struct stud{
+int id;
+struct nested dob;
+};
+int main(){
+struct stud s1;
+s1.id=456;
+s1.dob.date=4;
+s1.dob.month=03;
+s1.dob.year=2008;
+printf("id= %d date of birth=%d/%d/%d",s1.id,s1.dob.date,s1.dob.month,s1.dob.year);
+return 0;
+}
